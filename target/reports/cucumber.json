@@ -1,0 +1,375 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 675656500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "steps.BankAndCashDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-06T07:39:43.880Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1275136000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BankAndCashDefinition.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User should be able to login with valid credentials",
+        "description": "    and open a new account",
+        "id": "techfios-other-billing-login-page-functionality-validation;user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 182636200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BankAndCashDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1113314400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters the \"demo@techfios.com\" in the \"username\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@techfios.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_enters_the_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1076337600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters the \"abc123\" in the \"password\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_enters_the_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1810782300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2026222600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "steps.BankAndCashDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2103567700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on \"bankCash\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bankCash\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2236548400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on \"newAccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"newAccount\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1154339900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters \"CucumberAccount\" in the \"accountTitle\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CucumberAccount\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"accountTitle\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 654559700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters \"Acct Description\" in the \"description\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Acct Description\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"description\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 626004300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"343124321\" in the \"initialBalance\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"343124321\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"initialBalance\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 617410200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"43124341324\" in the \"accountNumber\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"43124341324\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"accountNumber\"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608402400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters \"Capt. America\" in the \"contactPerson\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Capt. America\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"contactPerson\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 598761900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters \"3143\" in the \"Phone\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3143\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Phone\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 684324300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters \"https://www.techfios.com/billing/?ng\u003dadmin/\" in the \"internetBankingURL\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.techfios.com/billing/?ng\u003dadmin/\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"internetBankingURL\"",
+                  "offset": 65
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1353588700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on \"submit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.BankAndCashDefinition.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11310261300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "steps.BankAndCashDefinition.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Techfiosloginandaaccount"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios Other billing login page functionality validation",
+    "description": "",
+    "id": "techfios-other-billing-login-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BankAndCash.feature",
+    "tags": [
+      {
+        "name": "@Techfiosloginandaaccount",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
